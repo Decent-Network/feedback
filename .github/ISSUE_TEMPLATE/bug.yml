@@ -1,0 +1,69 @@
+name: Bug report · 报告问题
+description: Something in Beagle, agentnet or an agent doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This is public.** Don't post your address, user ID, recovery phrase, keys, passwords or private messages. Crop screenshots to the problem.
+        **公开可见。** 请不要贴出地址、用户 ID、助记词、密钥、密码或私人聊天内容。
+  - type: dropdown
+    id: app
+    attributes:
+      label: Where · 在哪里
+      options:
+        - iPhone / iPad
+        - Android
+        - Desktop (Beagle on a computer)
+        - agentnet
+        - Web (app.beagle.chat)
+        - Browser extension
+        - An AI agent
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and build · 版本号
+      description: At the bottom of the Account panel, e.g. 1.8.43 (606).
+      placeholder: 1.8.43 (606)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and system · 设备和系统
+      placeholder: iPad mini, iPadOS 26.1 / Pixel 8, Android 16 / MacBook, macOS 26
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened · 发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected · 应该是什么样
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again · 复现步骤
+      placeholder: |
+        1. …
+        2. …
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network · 网络
+      options:
+        - Wi-Fi
+        - Mobile data
+        - Switching between Wi-Fi and mobile data
+        - VPN
+        - Don't know
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots · 截图
+      description: Drag images here. Crop out anything personal.

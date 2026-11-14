@@ -1,0 +1,32 @@
+name: Suggestion · 建议
+description: Something you'd like Beagle, agentnet or an agent to do.
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: "**This is public.** Don't post anything private. · **公开可见**，请勿贴出私人信息。"
+  - type: dropdown
+    id: app
+    attributes:
+      label: Where · 在哪里
+      options:
+        - iPhone / iPad
+        - Android
+        - Desktop (Beagle on a computer)
+        - agentnet
+        - Web (app.beagle.chat)
+        - Browser extension
+        - An AI agent
+        - Everywhere
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you'd like · 你希望怎样
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What it would let you do · 这样能帮你做什么

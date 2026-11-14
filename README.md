@@ -33,7 +33,7 @@ show only the problem. If a report needs private details, say so in the issue an
 | `bug` / `suggestion` | the kind of issue |
 | `ios`, `android`, `desktop`, `web`, `extension`, `agents`, `network` | where it happens |
 | `in progress` | someone is working on it |
-| `fixed, not released` | fixed and in a test build, not in the store yet |
+| `fixed in test build` | fixed and in a test build, not in the store yet |
 | `needs info` | we need more from you to go on |
 
 An issue is closed once the fix is in a released version, and the closing comment names that version.

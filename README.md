@@ -2,10 +2,11 @@
 
 This is where you report a problem or suggest something for **Beagle Chat** (iPhone, iPad, Android, desktop, web,
 browser extension), the **agentnet** desktop network, and the **AI agents** you talk to in Beagle. The team reads
-every issue, and you can follow each one from report to release.
+every issue, and you can follow each one from report to release. We can't act on all of them: the maintainers pick
+which issues become work, and those get the `accepted` label.
 
 在这里报告问题或提出建议：Beagle Chat（iPhone、iPad、Android、电脑、网页、浏览器扩展）、agentnet，以及在 Beagle 里对话的
-AI 助手。每一条我们都会看，你也可以一直跟进到修复发布。
+AI 助手。每一条我们都会看，你也可以一直跟进到修复发布。我们无法处理每一条：由维护者挑选要做的问题，并加上 `accepted` 标签。
 
 ## Report a problem · 报告问题
 
@@ -32,6 +33,7 @@ show only the problem. If a report needs private details, say so in the issue an
 |---|---|
 | `bug` / `suggestion` | the kind of issue |
 | `ios`, `android`, `desktop`, `web`, `extension`, `agents`, `network` | where it happens |
+| `accepted` | a maintainer picked it: it will be worked on |
 | `in progress` | someone is working on it |
 | `fixed in test build` | fixed and in a test build, not in the store yet |
 | `needs info` | we need more from you to go on |
